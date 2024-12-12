@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 780px){
+    header h1{
+        font-size: 1.5em;
+    }
+    nav a{
+        font-size: .9em;
+    }
+
+    /* ========== MAIN ==========*/
+    main{
+        width: 100%;
+        
+    }
+
+    main h2{
+        font-size: 1.1em;
+        margin-left: 5px;
+        margin-top: 10px;
+        text-indent: 6px;
+        
+    }
+    main img{
+        width: 492px;
+        
+    }
+    p{
+        font-size: .9em;
+        padding: 5px;
+        
+    }
+}
