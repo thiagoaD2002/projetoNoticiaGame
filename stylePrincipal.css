@@ -73,13 +73,14 @@ a:hover::after{
 
 /* ========== MAIN ===========*/
 
+
 main h2{
     font-family: var(--fontTitulo);
 }
 p{
-    font-family: var(--fontTexto);
-    margin-left: 5px;
-    text-indent: 6px;
+    font-family: var(--fontNav);
+    margin-left: 3px;
+    color: #444;
     text-align: justify;
 }
 .linkEpicGames{
@@ -108,5 +109,12 @@ p.pBorder{
     border-bottom: 1px solid black;
     padding-bottom: 20px;
     margin-top: 6px;
+    
+}
+p::before{
+    content: ' ';
+    background-color: tomato;
+    display: inline-block;
+    border: 1px solid #444;
     
 }
