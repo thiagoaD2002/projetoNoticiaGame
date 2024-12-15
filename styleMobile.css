@@ -61,11 +61,11 @@
    }
   /* =========== MAIN ==========*/
    .mainNoticias{
-    max-width: 420px;
+    max-width: 400px;
     margin: auto;
     margin-top: 60px;
     
-   
+   border: 1px solid black;
     
    }
 
@@ -74,6 +74,7 @@
     height: 100px;
     border-radius: 10px;
     transition: .5s;
+
 
 }
     main img:hover{
@@ -90,14 +91,14 @@
     margin-top: 50px;
    }
   
-   .divConteudos, .divRecentes > h2{
+   .divConteudos > h2, .divRecentes > h2{
     font-size: .7em;
     text-align: justify;
     text-indent: 5px;
     margin-left: 5px;
     border-bottom: 1px solid #444;
    }
-   .divConteudos, .divRecentes > p{
+   .divConteudos > p, .divRecentes > p{
     margin-left: 5px;
     text-align: justify;
     text-indent: 5px;
