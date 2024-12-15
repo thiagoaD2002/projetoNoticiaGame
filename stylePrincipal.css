@@ -48,6 +48,12 @@ li{
 
 /* ========= MAIN ============*/
 
+
+
 main  h2{
     font-family: var(--fontTitulo);
+}
+
+p{
+    font-family: var(--fontNav);
 }

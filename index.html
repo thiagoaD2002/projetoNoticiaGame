@@ -14,47 +14,85 @@
     </header>
     <nav class="menuArrastavel">
         <ul>
-            <li> <ion-icon name="home-outline" class="iconNav"></ion-icon>Página Inicial</li>
-            <li> <ion-icon name="refresh-circle-outline" class="iconNav"></ion-icon> Recentes</li>
-            <li> <ion-icon name="star-outline" class="iconNav"></ion-icon>
+            <li class="liNav"> <ion-icon name="home-outline" class="iconNav"></ion-icon>Página Inicial</li>
+            <li class="liNav"> <ion-icon name="refresh-circle-outline" class="iconNav"></ion-icon> Recentes</li>
+            <li class="liNav"> <ion-icon name="star-outline" class="iconNav"></ion-icon>
             Destaque</li>
-            <li> <ion-icon name="person-outline" class="iconNav"></ion-icon>
+            <li class="liNav"> <ion-icon name="person-outline" class="iconNav"></ion-icon>
             Sobre Nós</li>
         </ul>
     </nav>
 
 
     <main class="mainNoticias">
-        <section class="noticiaOne">
-            <img src="midia/returnToMoria.jpg" alt="Return to Moria">
 
-            <div class="conteudoOne">
-                <h2>Epic Games libera jogo de 'O Senhor dos Anéis' graça nesta quinta-feira; veja como resgatar</h2>
-                <p>"The Lord of the Rings: Return to Moria" de forma gratuita para os membros da loja de jogos até a próxima quinta-feira, 19</p>
+        <div class="telaInicial">
+            <section class="noticiaOne secNoticias">
+                <img src="midia/returnToMoria.jpg" alt="Return to Moria">
+                <div class="conteudoOne divConteudos">
+                    <h2>Epic Games libera jogo de 'O Senhor dos Anéis' graça nesta quinta-feira; veja como resgatar</h2>
+                    <p>"The Lord of the Rings: Return to Moria" de forma gratuita para os membros da loja de jogos até a próxima quinta-feira, 19</p>
+                </div>
+            </section>
+            <section class="noticiaTwo secNoticias">
+                <img src="midia/astrobot.jpg" alt="Astrobot">
+                <div class="conteudoTwo divConteudos">
+                    <h2>Astro Bot surpreende e vence como Jogo do Ano no TGA 2024</h2>
+                    <p>Astro Bot supera concorrentes de peso e se consagra no TGA 2024 com sua criatividade e jogabilidade marcantes.</p>
+                </div>
+            </section>
+            <section class="noticiaThree secNoticias">
+                <img src="midia/interGalactic.jpg" alt="Intergalactic">
+                <div class="conteudoThree divConteudos">
+                    <h2>Intergalactic: The Heretic Prophet, novo jogo da Naughty Dog, é revelado no The Game Awards 2024</h2>
+                    <p>Título é dirigido por Neil Druckmann, de The Last of Us.</p>
+                </div>
+            </section>
+            <section class="noticiaFour secNoticias">
+                <img src="midia/blackMythWukong.jpg" alt="Black Myth Wukong">
+                <div class="conteudoFour divConteudos">
+                    <h2>Chola mais! CEO da Game Science não aceita derrota de Black Myth Wukong no GOTY 2024</h2>
+                    <p>Feng Ji afirma que escreveu o discurso de vitória "há dois anos" e "não consegue entender os critérios do GOTY"</p>
+                </div>
+            </section>
+        </div>
 
-            </div>
-        </section>
+        <div class="noticiasRecentes telaRecentes">
 
-        <section class="noticiaTwo">
-            <img src="midia/astrobot.jpg" alt="Astrobot">
+            <section class="recenteOne secRecentes">
 
-            <div class="conteudoTwo">
-                <h2>Astro Bot surpreende e vence como Jogo do Ano no TGA 2024</h2>
-                <p>Astro Bot supera concorrentes de peso e se consagra no TGA 2024 com sua criatividade e jogabilidade marcantes.</p>
-            </div>
-        </section>
+                <img src="midia/marvelRivals.jpg" alt="marvel rivals">
+                <div class="divRecentes">
+                    <h2>Marvel Rivals tem skin gratuita do Homem de Ferro; Veja como resgatar!</h2>
+                    <p>15/12/2024 - há 1 hora</p>
+                </div>
 
-        <section class="noticiaThree">
-            <img src="midia/interGalactic.jpg" alt="Intergalactic">
+            </section>
 
-            <div class="conteudoThree">
-                <h2>Intergalactic: The Heretic Prophet, novo jogo da Naughty Dog, é revelado no The Game Awards 2024</h2>
-                <p>Título é dirigido por Neil Druckmann, de The Last of Us.</p>
-            </div>
-        </section>
+            <section class="recenteTwo secRecentes">
+                <img src="midia/steamOfertas.webp" alt="ofertas Steam">
+
+                <div class="divRecentes">
+                    <h2>Steam: jogos para PC em promoção com até 95% de desconto; veja as ofertas!</h2>
+                    <p>14/12/2024 - ontem</p>
+                </div>
+
+            </section>
+
+            <section class="recenteThree secRecentes">
+                
+                <img src="midia/jogoPolemico.jpg" alt="jogo polemico">
+
+                <div class="divRecentes">
+                    <h2>Jogo polêmico foi o mais buscado pelos brasileiros no Google em 2024</h2>
+                    <p>14/12/2024 - há 23 horas</p>
+                </div>
+            </section>
+        </div>
     </main>
 
 
+    <script src="script.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
