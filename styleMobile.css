@@ -3,7 +3,7 @@
 @media screen and (max-width: 780px){
     
    header{
-   
+    width: 100vw;
     height: 70px;
 
     display: flex;
@@ -27,7 +27,7 @@
     margin: auto;
     margin-top: 50px;
     height: 80px;
-    width: 370px;
+    width: 340px;
 
     
 
@@ -40,7 +40,7 @@
     
    }
    nav > ul > li{
-    margin-left: 25px;
+    margin-left: 12px;
     font-size: .8em;
     color: #444;
     transition: .2s;
@@ -54,8 +54,8 @@
    } 
    .iconNav{
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     color: #444;
     margin: auto;
    }
@@ -71,6 +71,7 @@
 
    main img{
     width: 200px;
+    height: 110px;
     border-radius: 10px;
    }
    
@@ -79,7 +80,7 @@
     flex-direction: row;
    }
    .noticiaOne  h2{
-    font-size: 1em;
+    font-size: .8em;
     text-align: justify;
     text-indent: 5px;
     margin-left: 5px;
@@ -91,13 +92,15 @@
     margin-left: 5px;
     text-align: justify;
     text-indent: 5px;
+
+    font-size: .8em;
    }
   
    .noticiaTwo{
     margin-top: 50px;
    }
    .conteudoTwo > h2{
-    font-size: 1em;
+    font-size: .8em;
     text-align: justify;
     text-indent: 5px;
     margin-left: 5px;
@@ -107,13 +110,14 @@
     margin-left: 5px;
     text-align: justify;
     text-indent: 5px;
+    font-size: .8em;
    }
 
    .noticiaThree{
     margin-top: 50px;
    }
    .conteudoThree > h2{
-    font-size: 1em;
+    font-size: .8em;
     text-align: justify;
     text-indent: 5px;
     margin-left: 5px;
@@ -125,5 +129,6 @@
     margin-left: 5px;
     text-align: justify;
     text-indent: 5px;
+    font-size: .8em;    
    }
 }
