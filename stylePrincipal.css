@@ -81,7 +81,7 @@ p{
     font-family: var(--fontNav);
     margin-left: 3px;
     color: #444;
-    text-align: justify;
+    text-align: center;
 }
 .linkEpicGames{
     text-decoration: none;
@@ -113,8 +113,8 @@ p.pBorder{
 }
 p::before{
     content: ' ';
-    background-color: tomato;
+    background-color: #444;
     display: inline-block;
-    border: 1px solid #444;
+    border: 1px solid #f8f8f8;
     
 }
