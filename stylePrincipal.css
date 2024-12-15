@@ -27,94 +27,27 @@ body{
 }
 
 header{
-    background-color: #222;
+    background-color: #000644;
     color: #f8f8f8;
-    text-align: center;
-    height: 60px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-header h1 {
     font-family: var(--fontTitulo);
-    font-weight: 200%;
-}
-
-nav{
-    background-color: #222;
-    height: 25px;
-}
-nav > a{
-    font-family: var(--fontNav);
-    text-decoration: none;
-    color: #f8f8f8;
-
-    margin-left: 10px;
-    position: relative;
-}
-
-a::after{
-    content: " ";
-    background-color: #f8f8f8;
-    
-    width: 0%;
-    height: 3px;
-    border-radius: 10px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    transition: .5s;
-}
-
-a:hover::after{
-    width: 100%;
-}
-
-/* ========== MAIN ===========*/
-
-
-main h2{
-    font-family: var(--fontTitulo);
-}
-p{
-    font-family: var(--fontNav);
-    margin-left: 3px;
-    color: #444;
     text-align: center;
-}
-.linkEpicGames{
-    text-decoration: none;
-    color: #444;
-    font-weight: bold;
-
-    position: relative;
-}
-
-.linkEpicGames::after{
-    content: ' ';
-    width: 0%;
-    background-color: #222;
-    height: 1.5px;
-    position: absolute;
 
     
 }
 
-.linkEpicGames:hover::after{
-    width: 100%;
-}
+ul{
+    list-style-type: none;
+    list-style-position: inside;
 
-p.pBorder{
-    border-bottom: 1px solid black;
-    padding-bottom: 20px;
-    margin-top: 6px;
-    
 }
-p::before{
-    content: ' ';
-    background-color: #444;
+li{
     display: inline-block;
-    border: 1px solid #f8f8f8;
-    
+    font-family: var(--fontNav);
+
+}
+
+/* ========= MAIN ============*/
+
+main  h2{
+    font-family: var(--fontTitulo);
 }

@@ -3,39 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tiago Technology</title>
     <link rel="stylesheet" href="stylePrincipal.css">
     <link rel="stylesheet" href="styleMobile.css">
 </head>
 <body>
-    <header>
-        <h1>t1</h1>
-    </header>
-    <nav>
-        <a href="#">Tela Inicial</a>
-        <a href="#">Destaque</a>
-        <a href="#">Recente</a>
-        <a href="#">Sobre</a>
-    </nav>
-    <main>
-        <h2>The Lord of the Rings: Return to Moria de GRAÇA na Epic Games</h2>
-        <p>O jogo The Lord of the Rings: Return to Moria pode ser resgatado grátis na Epic Games até 19 de dezembro e ficará para sempre em sua conta.</p>
-
-        <section class="secImg"><img src="midia/returnToMoria.jpg" alt="the Lord of the rings: Return to Moria"></section>
-
-        <p class="pBorder">A <a class="linkEpicGames" href="https://store.epicgames.com/pt-BR/p/the-lord-of-the-rings-return-to-moria-f01344" target="_blank" rel="noopener noreferrer">Epic Games</a> acaba de disponibilizar um novo jogo grátis em sua loja nesta quinta-feira (12). <strong>The Lord of the Rings: Return to Moria</strong> foi o escolhido pela empresa para ser o jogo de graça nesta semana. O game de PC ficará disponível para resgate sem custos até a próxima semana, em 19 de dezembro, quando a Epic Games colocará um ou mais títulos de graça em sua loja.</p>
-
-        <p>Desenvolvido pela Free Range Games e publicado pela North Beach Games, The Lord of the Rings: Return to Moria é um jogo de ação e aventura lançado na Epic Games em 24 de outubro de 2023.</p>
-
-        <h2>"Astro Bot" foi o grande vencedor do Game Awards 2024</h2>
-
-        <section class="secImg"><img src="midia/TGA.jpg" alt="The Game Awards"></section>
-
-        <p>O jogo, que homenageia os 30 anos do PlayStation, venceu em quatro categorias: Jogo do Ano, Melhor Direção, Melhor Jogo de Ação/Aventura e Melhor Jogo para Família.</p>
-
-        <section class="secImg"><img src="midia/astrobot.jpg" alt="Astrobot"></section>
+    <header class="headerBox">
+        <h1>Tthecnology</h1>
         
+    </header>
+    <nav class="menuArrastavel">
+        <ul>
+            <li> <ion-icon name="home-outline" class="iconNav"></ion-icon>Página Inicial</li>
+            <li> <ion-icon name="refresh-circle-outline" class="iconNav"></ion-icon> Recentes</li>
+            <li> <ion-icon name="star-outline" class="iconNav"></ion-icon>
+            Destaque</li>
+            <li> <ion-icon name="person-outline" class="iconNav"></ion-icon>
+            Sobre Nós</li>
+        </ul>
+    </nav>
+
+
+    <main class="mainNoticias">
+        <section class="noticiaOne">
+            <img src="midia/returnToMoria.jpg" alt="Return to Moria">
+
+            <div class="conteudoOne">
+                <h2>Epic Games libera jogo de 'O Senhor dos Anéis' graça nesta quinta-feira; veja como resgatar</h2>
+                <p>"The Lord of the Rings: Return to Moria" de forma gratuita para os membros da loja de jogos até a próxima quinta-feira, 19</p>
+
+            </div>
+        </section>
+
+        <section class="noticiaTwo">
+            <img src="midia/astrobot.jpg" alt="Astrobot">
+
+            <div class="conteudoTwo">
+                <h2>Astro Bot surpreende e vence como Jogo do Ano no TGA 2024</h2>
+                <p>Astro Bot supera concorrentes de peso e se consagra no TGA 2024 com sua criatividade e jogabilidade marcantes.</p>
+            </div>
+        </section>
     </main>
-    <script src="script.js"></script>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
