@@ -19,11 +19,11 @@
 
 
 }
-body{
-    width: 100vw;
+body,html{
+    width: 97vw;
     height: 100vh;
 
-    background-color: #f8f8f8;
+    
 }
 
 header{

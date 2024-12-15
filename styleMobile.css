@@ -3,7 +3,7 @@
 @media screen and (max-width: 780px){
     
    header{
-    width: 100vw;
+   
     height: 70px;
 
     display: flex;
@@ -27,7 +27,7 @@
     margin: auto;
     margin-top: 50px;
     height: 80px;
-    width: 450px;
+    width: 370px;
 
     
 
@@ -54,17 +54,18 @@
    } 
    .iconNav{
     display: block;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     color: #444;
     margin: auto;
    }
   /* =========== MAIN ==========*/
    .mainNoticias{
-    max-width: 485px;
+    max-width: 450px;
     margin: auto;
     margin-top: 60px;
     /* border: 1px solid black; */
+   
     
    }
 
@@ -82,7 +83,6 @@
     text-align: justify;
     text-indent: 5px;
     margin-left: 5px;
-    height: 80px;
     border-bottom: 1px solid #444;
     
     
@@ -101,7 +101,6 @@
     text-align: justify;
     text-indent: 5px;
     margin-left: 5px;
-    height: 60px;
     border-bottom: 1px solid #444;
    }
    .conteudoTwo > p{
