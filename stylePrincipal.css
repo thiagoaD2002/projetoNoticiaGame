@@ -22,12 +22,14 @@
 body,html{
     width: 97vw;
     height: 100vh;
+}
 
-    
+body{
+    background-color: #f4f4f4;
 }
 
 header{
-    background-color: #000644;
+    background-color: #222;
     color: #f8f8f8c4;
     font-family: var(--fontTitulo);
     text-align: center;
@@ -37,7 +39,7 @@ header{
 
 nav{
     border-radius: 10px;
-    border: 2px solid darkblue;
+    border: 2px solid #2222227a;
     box-shadow: 1px 1px 1px .5px #3333331f;
 
     margin: auto;
@@ -66,13 +68,32 @@ li{
     color: #444;
     transition: .2s;
 
+    position: relative;
+
+}
+
+li::after{
+    content: ' ';
+    width: 0%;
+    height: 1px;
+    
+    background-color: #44444490;
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+    transition: .5s;
+}
+
+li:hover::after{
+    width: 100%;
 }
 
 nav li:hover{
     cursor: pointer;
     color: #666;
     font-weight: bold;
-   } 
+} 
 
 .iconNav{
     display: block;
@@ -80,6 +101,8 @@ nav li:hover{
     height: 20px;
     color: #444;
     margin: auto;
+
+    
    }
 
 
@@ -89,6 +112,11 @@ nav li:hover{
     width: 900px;
     margin: auto;
     margin-top: 60px;
+    padding: 15px;
+    background-color: #f8f8f8;
+
+    box-shadow: .2px .2px .2px .2px rgba(0, 0, 0, 0.026);
+    border-radius: 10px 10px 0px 0px;
 }
 
 main img{
@@ -103,6 +131,7 @@ main img{
 main img:hover{
     cursor: pointer;
     padding-bottom: 5px;
+    scale: 1.1;
 }
 
 .telaInicial{
