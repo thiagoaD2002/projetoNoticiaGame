@@ -124,7 +124,7 @@
 
    .imgAparte{
        margin: auto;
-       width: 400px;
+       width: 380px;
        height: 200px;
     }
     .imgAparte > img{
@@ -139,6 +139,7 @@
    .noticiasAparte > p{
     margin-bottom: 6px;
     display: inline-block;
+    margin-top: 5px;
     margin-right: 10px;
     font-size: .9em;
 
@@ -151,19 +152,35 @@
    }
    /*============ TELA RECENTES ===========*/
 
-   .divRecentes > p{
+  .divRecentes > p{
     margin-top: 5px;
     color: #666;
 
 
    }
 
-   .noticiasRecentes{
+.noticiasRecentes{
     animation: showUp linear .5s forwards;
     display: none;
 }
 
-   
+.cxBreve{
+    width: 330px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cxBreve > h2{
+    font-size: 1.1em;
+    color: #6666666e;
+}
+
 }
 
 @keyframes showUp{
