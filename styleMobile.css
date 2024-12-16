@@ -79,6 +79,8 @@
     border-radius: 10px;
     transition: .5s;
 
+    box-shadow: .5px .5px .5px .5px rgba(0, 0, 0, 0.073);
+
 
 }
     main img:hover{
@@ -94,16 +96,18 @@
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+
+   
    }
   
-   .divConteudos > h2, .divRecentes > h2{
+   .divConteudos > h2, .divRecentes > h2, .divDestaque > h2{
     font-size: .7em;
     text-align: justify;
     text-indent: 5px;
     margin-left: 5px;
     border-bottom: 1px solid #444;
    }
-   .divConteudos > p, .divRecentes > p{
+   .divConteudos > p, .divRecentes > p, .divDestaque > p{
     margin-left: 5px;
     text-align: justify;
     text-indent: 5px;
@@ -124,7 +128,7 @@
 
    .imgAparte{
        margin: auto;
-       width: 380px;
+       width: 350px;
        height: 200px;
     }
     .imgAparte > img{
@@ -139,16 +143,12 @@
    .noticiasAparte > p{
     margin-bottom: 6px;
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-right: 10px;
     font-size: .9em;
 
 
     color: rgba(255, 99, 71, 0.823);
-   }
-   .balonIcon{
-   
-
    }
    /*============ TELA RECENTES ===========*/
 
@@ -181,6 +181,20 @@
     color: #6666666e;
 }
 
+/*============ TELA DESTAQUE ===========*/
+
+.telaDestaque{
+    display: none;
+    animation: showUp linear .5s forwards;
+
+}
+.secDestaque{
+    display: flex;
+    flex-direction: row;
+}
+.secDestaque2, .secDestaque3{
+    margin-top: 50px;
+}
 }
 
 @keyframes showUp{
