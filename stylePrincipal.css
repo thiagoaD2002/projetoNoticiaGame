@@ -247,3 +247,46 @@ p{
 .secDestaque2, .secDestaque3{
     margin-top: 50px;
 }
+
+/*============ TELA SOBRE NÓS ===========*/
+
+.telaSobre{
+    display: none;
+    animation: showUp linear .5s forwards;
+}
+
+.secSobre > h3{
+    font-family: var(--fontTitulo);
+    font-size: 1em;
+}
+
+.secSobre > div{
+    background-color:#f4f4f4;
+    border-radius: 10px;
+    padding: 5px;
+}
+.secSobre  p {
+    margin-top: 10px;
+    font-family: var(--fontNav);
+    text-indent: 5px;
+}
+
+.secSobre > ul{
+    background-color: #f4f4f4;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.secSobre li{
+    margin-bottom: 5px;
+   display: flex;
+   align-items: center;
+   font-style: italic;
+   box-shadow: .2px .2px .2px .2px rgba(0, 0, 0, 0.026);
+}
+.iconSobre{
+    margin-right: 5px;
+}
+
+
+

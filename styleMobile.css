@@ -75,7 +75,29 @@
 /*============ TELA DESTAQUE ===========*/
 
 
+
 }
+
+/*============ TELA SOBRE NÓS ===========*/
+
+.secSobre > h3{
+    font-size: 1em;
+}
+.secSobre  p {
+    font-size: .8em;
+}
+
+
+.secSobre li{
+    font-size: .8em;
+    
+}
+
+.ultimoH3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 @keyframes showUp{
     from{
