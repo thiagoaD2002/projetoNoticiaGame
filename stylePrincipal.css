@@ -132,6 +132,7 @@ main img:hover{
     cursor: pointer;
     padding-bottom: 5px;
     scale: 1.1;
+    box-shadow: none;
 }
 
 .telaInicial{
