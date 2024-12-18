@@ -37,3 +37,75 @@ liNav.forEach((el,index,array) => {
 
     })
 })
+
+/* ==========ANIMAÇÃO DO THEMA ==========*/
+
+const animationBola = document.querySelector(".animationBola")
+const btnTheme = document.querySelector(".btnTheme")
+
+
+const body = document.querySelector("body")
+
+const menuArrastavel = document.querySelector(".menuArrastavel")
+const liMenu = document.querySelectorAll(".menuArrastavel li")
+const iconNav = document.querySelectorAll(".iconNav")
+
+const main = document.querySelector("main")
+const mainH2 = document.querySelectorAll("main h2")
+const mainP = document.querySelectorAll("main p")
+
+const secRecentesP = document.querySelectorAll(".divRecentes > p")
+
+
+const secSobreH3 = document.querySelectorAll(".secSobre h3")
+const divSobre = document.querySelector(".divSobre")
+const secSobreP = document.querySelectorAll(".secSobre p")
+const ulSobre = document.querySelector(".ulSobre")
+const liSobre = document.querySelectorAll(".liSobre")
+
+
+animationBola.addEventListener("click",()=>{
+    animationBola.classList.toggle("themeDark")
+    btnTheme.classList.toggle("btnThemeDark")
+
+
+    body.classList.toggle("bodyDark")
+
+
+
+   menuArrastavel.classList.toggle("menuDark")
+   liMenu.forEach((elemento)=>{
+    elemento.classList.toggle("liMenuDark")
+   })
+   iconNav.forEach((elemento)=>{
+    elemento.classList.toggle("iconNavDark")
+   })
+
+   main.classList.toggle("mainDark")
+
+   mainH2.forEach((elemento)=>{
+    elemento.classList.toggle("mainH2Dark")
+   })
+
+   mainP.forEach((elemento)=>{
+    elemento.classList.toggle("mainPDark")
+   })
+
+   secRecentesP.forEach((elemento) => {
+    elemento.classList.toggle("recentePDark")
+   })
+
+  divSobre.classList.toggle("divSobreDark")
+
+  secSobreH3.forEach((elemento) =>{
+    elemento.classList.toggle("secSobreH3Dark")
+  })
+
+  ulSobre.classList.toggle("ulSobreDark")
+
+  liSobre.forEach((elemento) =>{
+    elemento.classList.toggle("liSobreDark")
+  })
+
+})
+

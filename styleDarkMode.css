@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.themeDark{
+    margin-left: 45px;
+    background-color: #f8f8f8;
+    
+}
+
+
+.bodyDark{
+    background-color: #333;
+}
+
+
+.menuDark{
+    background-color: #444;
+    border: 2px solid #f8f8f8;
+}
+.liMenuDark{
+    color: #f8f8f8;
+    font-weight: normal;
+}
+.liMenuDark::after{
+    background-color: #f8f8f88a;
+}
+.liMenuDark:hover{
+    color: #f9f9f9cc;
+}
+.iconNavDark{
+    color: #f8f8f8;
+}
+
+.mainDark{
+    background-color: #444;
+}
+.mainH2Dark{
+    color: #f8f8f8;
+}
+.mainPDark{
+    color: #f8f8f8cf;
+}
+
+.recentePDark{
+    color: #f8f8f8cf;
+}
+.divSobreDark{
+    background-color: #555;
+}
+.secSobreH3Dark{
+    color: #f8f8f8;
+}
+.ulSobreDark{
+    background-color: #555;
+}
+
+.liSobreDark{
+   color: #f8f8f8;
+}
