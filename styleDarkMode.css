@@ -2,7 +2,7 @@
 
 .themeDark{
     margin-left: 45px;
-    background-color: #f8f8f8;
+    background-color: #222;
     
 }
 
@@ -11,6 +11,12 @@
     background-color: #333;
 }
 
+.iconSunAtivo{
+    display: block;
+}
+.iconMoonDesativo{
+    display: none;
+}
 
 .menuDark{
     background-color: #444;

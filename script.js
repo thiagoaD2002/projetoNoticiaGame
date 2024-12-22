@@ -56,7 +56,8 @@ const mainP = document.querySelectorAll("main p")
 
 const secRecentesP = document.querySelectorAll(".divRecentes > p")
 
-
+const iconSun = document.querySelector(".iconSun")
+const iconMoon = document.querySelector(".iconMoon")
 const secSobreH3 = document.querySelectorAll(".secSobre h3")
 const divSobre = document.querySelector(".divSobre")
 const secSobreP = document.querySelectorAll(".secSobre p")
@@ -68,7 +69,9 @@ animationBola.addEventListener("click",()=>{
     animationBola.classList.toggle("themeDark")
     btnTheme.classList.toggle("btnThemeDark")
 
-
+    iconSun.classList.toggle("iconSunAtivo")
+    iconMoon.classList.toggle("iconMoonDesativo")
+    
     body.classList.toggle("bodyDark")
 
 
@@ -119,7 +122,7 @@ window.addEventListener("scroll",()=>{
         if(elTop < 0){
            elemento.classList.add("jsScrollAtivo")
         } else{
-            elemento.classList.remove("jsScrollAtivo")
+            // elemento.classList.remove("jsScrollAtivo")
         }
     })
 })
