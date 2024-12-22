@@ -71,7 +71,7 @@ animationBola.addEventListener("click",()=>{
 
     iconSun.classList.toggle("iconSunAtivo")
     iconMoon.classList.toggle("iconMoonDesativo")
-    
+
     body.classList.toggle("bodyDark")
 
 
@@ -115,7 +115,7 @@ animationBola.addEventListener("click",()=>{
 /* =========== ANIMAÇÃO AO SCROLLAR ============= */
 
 const allJsScroll = document.querySelectorAll(".js-scroll")
-const windowMetade = window.innerHeight * 0.6
+const windowMetade = window.innerHeight * 0.5
 window.addEventListener("scroll",()=>{
     allJsScroll.forEach((elemento)=>{
         const elTop = elemento.getBoundingClientRect().top - windowMetade
