@@ -109,3 +109,17 @@ animationBola.addEventListener("click",()=>{
 
 })
 
+/* =========== ANIMAÇÃO AO SCROLLAR ============= */
+
+const allJsScroll = document.querySelectorAll(".js-scroll")
+const windowMetade = window.innerHeight * 0.6
+window.addEventListener("scroll",()=>{
+    allJsScroll.forEach((elemento)=>{
+        const elTop = elemento.getBoundingClientRect().top - windowMetade
+        if(elTop < 0){
+           elemento.classList.add("jsScrollAtivo")
+        } else{
+            elemento.classList.remove("jsScrollAtivo")
+        }
+    })
+})
